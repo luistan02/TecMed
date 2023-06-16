@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {margin:0;}
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ff0000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #ff0000;
+    }
+    
+    .active {
+      background-color: brown;
+    }
+
+img.opacity {
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+   zoom: 1;
+ }
+
+img.opacity:hover {
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+   zoom: 1;
+ }
+    </style>
+<body style="background-color: beige;">
+    <ul>
+        <li><a class="active" href="#Neuroprotesis">Que es?</a></li>
+        <li><a href="#Historia">Historia</a></li>
+        <li><a href="#Audio">Audio</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#Galeria">Galeria</a></li>
+        <li><a href="#Creditos">Creditos</a></li>
+      </ul>
+      
+      <div style="padding:20px;margin-top:30px;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="img/rot.png" height="250" width="500" align="left">
+        <h1 align="center"><BIG><big>Neuroprotesis</big></BIG></h1>
+        <br>
+        <p align="center">un poco de todo</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a name="Neuroprotesis"></a>
+        <h2 align="right"><big><big>Que es?</big></big><br></h2>
+    <p align="right" font-size="5">   
+        Una neuroprótesis es la implantación de un chip en el cerebro. 
+        Este tipo de técnicas se están estudiando principalmente con la <br>
+        finalidad de dotar de movilidad a personas parapléjicas, amputadas 
+        o con dificultades motrices.
+        <br>
+        Las nuevas tecnologías han permitido a pacientes con pérdida de 
+        alguno de los sentidos, volver a recuperarlos. ¡Es increíble! En <br>
+        concreto, el oído y la vista son los más comunes.
+    </p>
+        
+        <svg width="300" height="350" viewBox="0 0 250 250">
+            <defs>
+             <radialGradient id="degradadoRadial5">
+              <stop offset="50%" stop-color="#fff"></stop>
+              <stop offset="100%" stop-color="#000"></stop>
+             </radialGradient>
+             <mask id="maskCirculo5" >
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+    
+              
+             </mask>
+            </defs>
+           <image xlink:href="img/neuroportesis.png" height="340" width="350" style="mask: url(#maskCirculo5);" ></image>
+           </svg>
+        <img align="right" src="img/cere.png" height="350" width="450">
+        <br>
+        <br>
+        <br>
+        <a name="Historia"></a>
+        <h2 align="left"><big><big>Historia </big></big><br></h2>
+    <p align="left">
+        En 2011, un equipo de la Universidad de California en Berkeley 
+            describió por primera vez unas diminutas partículas de silicio <br>
+            que denominaron neural dust (polvo neuronal), a grandes rasgos 
+            basadas en los mismos principios de los neurograins. En 2017, <br>
+            dos de sus inventores, el neurocientífico José Carmena y el 
+            ingeniero Michel Maharbiz, inauguraron la compañía Iota Biosciences <br>
+            para desarrollar estos implantes inalámbricos que podrían cambiar 
+            la forma en que entendemos nuestros cuerpos: son capaces de monitorizar <br>
+            en tiempo real músculos, órganos y nervios en las profundidades del 
+            cuerpo. Podrán tratar la epilepsia y el control de vejiga y, también <br>
+            en un futuro, controlar prótesis.
+          
+    </p>
+    <img src="img/brain.png" align="right" height="350" width="350">
+    <br>
+    <br>
+    <br>
+    <a name="Audio"></a>
+    <h3><big><big>Audio descriptivo</big></big></h3>
+    <audio controls>
+        <source src="img/videoprotesis.mp3" type="audio/mp3" align="right">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+    <br>
+    <a name="video"></a>
+    <video width="500" height="300" muted controls>
+      <source src="img/nuerologia.mp4" type="video/mp4" />
+  </video>
+    
+    <br>
+    <img src="img/cora.png" alt="MDN logo" width="500" height="500" class="opacity">
+<img src="img/medin.png" alt="MDN logo" width="500" height="500" class="opacity">
+    <br>
+    <br>
+    <br>
+    <a name="Galeria"></a>
+    <a href="galeria.html"><img height="250" width="250" src="img/GALERI.png" align="right"></a> 
+    
+    <a name="Creditos"></a>
+    <a href="creditos.html"><img heigth="250" width="250" src="img/creditos.gif" align="left"> </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    
+  </div>
+</body>
+</html>
